@@ -8,6 +8,20 @@ class School
   def add_student(name, grade)
     @student_name = name
     @grade = grade
+    
+    @roster_for_grade = []
+    @roster_for_grade << "name"
+    @roster_for_grade = []
+    puts @roster_for_grade
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @roster[grade] = []
     if @roster.include?(grade) == false
       @roster[grade]
